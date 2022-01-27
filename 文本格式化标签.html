@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- b和strong使文字倾斜，strong具有强调作用 -->
+    <b>
+        b: 加粗
+    </b>
+    <strong>
+            strong: 加粗且强调，强调用于seo时，便于提取关键字
+    </strong>
+    <!-- i和em，使文字倾斜，em具有强调作用 -->
+    <i>
+        i: 简单倾斜
+    </i>
+    <em>
+        em: 强调倾斜
+    </em>
+    <!-- pre，定义与文本，文本会保留空格和换行符，文本呈现等宽字体，文字字号小一号，在浏览器中独占一行-->
+    <pre>
+    pre：预格式文本
+    </pre>
+    <!-- small,big 缩小一号，放大一号，浏览器支持最小为12，如果显示小于12号，需要特殊处理-->
+    <p>
+        small,big 缩小一号，放大一号，浏览器支持最小为12，如果显示小于12号，需要特殊处理
+        例：
+        <small>小一号</small>
+        正常大小
+        <big>已经被淘汰了，尽量不要用淘汰了的</big>
+    </p>
+    <!-- sub/sup 下-上标，调整文本正常显示的基线，且文字自动小一号 -->
+    <p>
+        sub/sup 下-上标，调整文本正常显示的基线，且文字自动小一号
+        例子： A<sup>y</sup><sub>x</sub></p>
+    <!-- 单双标签 -->
+    <p>
+        单双标签：
+        双：p
+        单：br
+    </p>
+    <p>
+        实体转译 
+        aa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bb
+        空格大小与等等符号
+    </p>
+    <p style="width: 300px;background-color: aqua;">
+        块状元素，可以设置宽高
+        特点：独占一行，宽高可控，不设置宽度，将自动填满其父元素宽度
+        其内可以包含块级行级元素
+        包括：address，dir，div，dl，dt。。。。。
+        属性中加入display:inline;,转为行级
+        行内元素，不可以设置宽高
+        strong ,small
+        不会独占一行，与相邻行级元素占同一行，知道铺满换行
+        其内只能有行级元素
+    </p>
+    <div>
+
+    </div>
+    <p> 
+        w3c标准
+        块元素不能和行元素并列
+        块元素不能放在p里面
+        hx，p，dt只能包含内联元素，不能再包含块元素
+        快元素可以放內联元素
+    </p>
+    <q>
+        短文本引用，会自动加引号
+    </q>
+    <address>
+        <p>
+            家庭地址：1233324
+        </p>
+    </address>
+    项目开发时，项目中不能出现汉字和空格之类的其他符号，一般用字母下划线开头
+    目录名：taobaopro
+    image/img/pic
+    video 
+    music
+    file
+    web
+    index.html 首页
+    pruduct.html产品
+    order.html 订单
+ </body>
+</html>
