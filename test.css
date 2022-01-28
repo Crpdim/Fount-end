@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(188, 188, 199);
+    
+}
+
+
+.box {
+    font-weight: bold;
+    font-size: 16px;
+    color: brown;
+}
+.box li{
+    color:blueviolet
+}

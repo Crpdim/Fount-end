@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入外部样式文件 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 内部样式表 -->
+    <style>
+        @import "test.css";
+        /* * {
+            color:rgb(116, 116, 196)
+        } */
+        /* p {
+            background-color: beige;
+            font-size: 18px;
+        } */
+        span {
+            display:block;
+            border: 2px;
+
+        }
+        .lab {
+            color: chartreuse;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 行间样式 -->
+    <div style="color: aqua; width: 30; border: 1px solid blue;"> 
+    11111
+    </div>
+    <div></div>
+    <p>段落1</p>
+    <p>段落2</p>
+    <span class="lab">外部样式测试</span>
+    <div class="box">导入外部样式</div>
+    <em class="box">测试</em>
+    <ul class="box">
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+</body>
+</html>
