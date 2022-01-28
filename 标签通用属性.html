@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--id给一个标签取标识名,一个网页中必须唯一-->
+    <p id = "p1">段落1</p>
+    <p id = "p2">段落2</p>
+    <div class = "test">
+    </div>
+    <!-- class 取类名 -->
+    <p class="test">
+        p
+    </p>
+    <!-- style设置标签样式 -->
+    <p style = "color: aquamarine;width: 20px;" >
+        style测试
+    </p>
+    <!-- title提示文本 -->
+    <p title=’这是一个测试‘>title测试</p>
+
+    <table border="1" width = "400" cellspacing = "0" cellpadding="10" align = "center"> 
+        <tr>
+            <!-- 自动居中，加粗 -->
+            <th>姓名</th>
+            <th>学号</th>
+            <th>地址</th>
+        </tr>
+        <tr>
+            <td>内容1</td>
+            <td>内容2</td>
+            <td>内容3</td>
+        </tr>
+        <tr>
+            <td>内容1</td>
+            <td>内容2</td>
+            <td>内容3</td>
+        </tr>
+    </table>    
+        <table height=  "400" border="1" width="500" align="center">
+            <tr></tr>
+            <td align="center" valign="middle">content1</td>
+            <td>content2</td>
+            <tr></tr>
+        </table>
+        table[boder=600 align=center]>caption{student}+(thead>tr>th*4)+(tbody>tr*3>td*4)+(tfoot>tr>td[colapan=1])
+        <table border="1" align="center">
+            <caption>student</caption>
+            <thead>
+                <tr>
+                    <th>w</th>
+                    <th>x</th>
+                    <th>z</th>
+                    <th>y</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td>tom</td>
+                    <td>home</td>
+                    <td>zzzz</td>
+                </tr>
+                <tr>
+                    <td align="center"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td align="center"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colapan="1">1111111</td>
+                </tr>
+            </tfoot>
+        </table>
+        <form name="stu" action="https://baidu.com" method="get">
+            <p>
+                input元素
+            </p>
+            <input type="text" name="username" placeholder="请输入姓名" minlength="10" maxlength=""><br>
+            <input type="password" name="user_password" id=""><br>
+            <input type="checkbox" name="" id="">复选框，多选<br>
+            <input type="radio" name="sex" id="" checked>男<br>
+            <input type="radio" name="sex" id="">女<br>
+            <input type="file"><br>
+            <input type="submit"><br>
+            <input type="button" value=“登陆”><br>
+            <input type="date" name="" id=""><br>
+            <textarea name="memo" id="memo" cols="30" rows="10" placeholder="多行文本框"></textarea>
+            <label for="sex">性别</label>
+            <select name="" id="" multiple>
+                <option value="male">男</option>
+                <option value="female">女</option>
+            </select>
+        </form>
+        <iframe src="标签属性.html" frameborder="1" scrolling="yes"></iframe>
+</body>
+</html>
