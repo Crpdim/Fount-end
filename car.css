@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.car {
+    width: 1000px;
+    height: 500px;
+    
+    margin: 0 auto;
+    background-color: #444;
+    position: relative;
+    overflow: hidden;
+
+}
+.car img {
+    width: 1000px;
+    height: 300px;
+}
+.carlim {
+    width: 9999px;
+}
+.carlim li {
+    float: left;
+}
+.prev,.next{
+    width: 45px;
+    height: 45px;
+    position:absolute;
+    top: 70%;
+    margin-top: -16px;
+}
+
+.prev {
+    background-image:url(./img/prev.png);
+    left: 50px;
+}
+
+.next {
+    background-image: url(./img/next.png);
+    right: 50px;
+}
